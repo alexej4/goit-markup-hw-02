@@ -1,17 +1,147 @@
+:root {
+  --main-background-color: #E5E5E5;
+  --logo-color: #2196F3;
+  --title-text-color: #212121;
+  --white-next-color: #FFFFFF;
+  --hero-color: #2F303A;
+  --context-color: #757575;
+  --team-bg-color: #F5F4FA;
+
+}
 body {
-  background-color: #E5E5E5;
+  background-color: var(--main-background-color);
   font-family: font-family: 'Roboto', sans-serif;
 }
-span {
+/* Логотип */
+.logo {
+  text-decoration: none;
   font-family: 'Raleway', sans-serif;
-  font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  color: black;
 }
-.none {
-   text-decoration: none;
+.logo > span {color: var(--logo-color);}
+/* Щапка сайта */
+.list a {
+  list-style: none;
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
-.web {color: #2196F3;}
+.list a:hover, .nav a:focus {color: var(--logo-color)}
+.list li {
+  list-style-type: none;
+}
+.contacts a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--context-color);
+}
+.contacts a:hover, .contacts a:focus {color: var(--logo-color);}
+.contacts li {list-style-type: none;}
+/* Секция герой */
+.hero {background: var(--hero-color);}
+.hero h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-next-color);
+}
+.btn-studio {
+  width: 200px;
+  height: 50px;
+  left: 685px;
+  top: 430px;
+  background: var(--logo-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-next-color);
+}
+/* Секция достоинства */
+.dignity > h2 {visibility: hidden;}
+.dignity li {
+  list-style-type: none;
+}
+.dignity-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.dignity-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--context-color);
+}
+/* Секция Чем мы занимаемся */
+.about-work li {
+  list-style-type: none;
+}
+  .about-work-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  }
+  /* Секция Наша команда */
+  .team li {
+  background-color: var(--team-bg-color);
+  list-style-type: none;
+  }
+  .team-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  }
+  .team-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--context-color);
+  }
