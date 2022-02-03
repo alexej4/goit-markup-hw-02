@@ -12,6 +12,9 @@
 body {
   background-color: var(--white-next-color);
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--context-color);
 }
 /* Логотип */
 .logo {
@@ -21,7 +24,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--label-color);
 }
 .logo > span {
@@ -32,7 +34,6 @@ body {
   list-style: none;
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
@@ -51,10 +52,8 @@ body {
 .contacts a {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--context-color);
 }
 .contacts a:hover,
 .contacts a:focus {
@@ -103,17 +102,12 @@ body {
 }
 .dignity-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
 .dignity-text {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--context-color);
 }
 /* Секция Чем мы занимаемся */
 .about-work li {
@@ -124,7 +118,6 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 /* Секция Наша команда */
@@ -136,14 +129,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 .team-text {
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: var(--context-color);
 }
 /* Подвал */
 .ftr {
@@ -166,21 +156,15 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--white-next-color);
 }
-.ftr-street {
+.ftr-street,
+.ftr-contacts {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--white-next-color);
 }
 .ftr-contacts {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--ftr-contacts-color);
 }
 /* Portfolio html */
@@ -202,7 +186,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
   cursor: pointer;
 }
@@ -217,7 +200,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--white-next-color);
 }
 /* Список изображений */
@@ -237,6 +219,5 @@ body {
 .port-text {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--context-color);
 }
