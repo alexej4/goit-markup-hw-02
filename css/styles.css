@@ -16,6 +16,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--context-color);
 }
+/* Щапка сайта */
 /* Логотип */
 .logo {
   text-decoration: none;
@@ -29,7 +30,6 @@ body {
 .logo > span {
   color: var(--logo-color);
 }
-/* Щапка сайта */
 .list a {
   list-style: none;
   text-decoration: none;
